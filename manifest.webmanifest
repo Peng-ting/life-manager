@@ -1,0 +1,29 @@
+{
+  "name": "生活管家",
+  "short_name": "生活管家",
+  "description": "用品、打扫、场景 SOP、购物清单与习惯养成的极简生活工作台。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F7F6F2",
+  "theme_color": "#F7F6F2",
+  "categories": ["lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
